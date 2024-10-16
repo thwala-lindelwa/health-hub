@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your go-to resource for physical, mental, and emotional health.">
+    <meta name="keywords" content="health, wellness, physical health, mental health, emotional health">
+    <title>Health Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #007BFF; /* Header background color */
+            color: #fff; /* Header text color */
+            padding: 10px 15px; /* Smaller padding */
+            display: flex; /* Flexbox for layout */
+            justify-content: space-between; /* Space between logo and nav */
+            align-items: center; /* Center items vertically */
+            position: sticky; /* Sticky header */
+            top: 0; /* Stick to top */
+            z-index: 1000; /* On top of other elements */
+        }
+
+        nav ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+            display: flex; /* Flexbox for horizontal layout */
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Smaller margin between items */
+        }
+
+        nav ul li a {
+            color: white; /* Link text color */
+            text-decoration: none; /* No underline */
+            font-weight: bold; /* Bold text */
+            padding: 8px 12px; /* Smaller padding */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s; /* Transition effects */
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3; /* Background color on hover */
+            color: #FFD700; /* Text color on hover */
+        }
+
+        #hero {
+            background: url('https://static.toiimg.com/photo/97420059.cms') no-repeat center center; /* Hero background image */
+            background-size: cover; /* Cover background */
+            color: #fff; /* Text color */
+            height: 80vh; /* Reduced height */
+            display: flex; /* Flexbox layout */
+            flex-direction: column; /* Column layout */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            text-align: center; /* Center text */
+            padding: 0; /* No padding */
+        }
+
+        h2 {
+            text-align: center; /* Center align headings */
+            margin-bottom: 15px; /* Reduced bottom margin */
+            color: #007BFF; /* Heading color */
+        }
+
+        button {
+            background-color: #28a745; /* Green button color */
+            color: white; /* White text color */
+            border: none; /* No border */
+            padding: 8px 12px; /* Smaller padding */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Add your additional styles here... */
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Health Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to Health Hub</h2>
+        <p>Your go-to resource for physical, mental, and emotional health.</p>
+        <button>Get Started Today!</button>
+    </section>
+
+    <main>
+        <section id="resources">
+            <h2>Our Resources</h2>
+            <div class="resource-grid">
+                <div class="resource">
+                    <h3>Physical Health</h3>
+                    <p>Get into business with tips and guides on maintaining your physical health.</p>
+                    <button>Get Started</button>
+                </div>
+                <div class="resource">
+                    <h3>Mental Health</h3>
+                    <p>Get into business with resources to help you manage your mental wellbeing.</p>
+                    <button>Get Started</button>
+                </div>
+                <div class="resource">
+                    <h3>Emotional Health</h3>
+                    <p>Get into business with support and strategies for emotional resilience.</p>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What People Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/100" alt="Person 1">
+                    <div class="testimonial-content">
+                        <p>"Health Hub has transformed my perspective on wellness. I feel empowered!"</p>
+                        <p>- Alice Johnson</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9734;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/100" alt="Person 2">
+                    <div class="testimonial-content">
+                        <p>"I found the support I needed for my mental health journey. The articles and resources are incredibly insightful!"</p>
+                        <p>- John Smith</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/100" alt="Person 3">
+                    <div class="testimonial-content">
+                        <p>"The advice on nutrition has transformed my health! I feel more energetic and focused than ever."</p>
+                        <p>- Sarah Johnson</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9734;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="zigzag-section">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>At Health Hub, we believe in empowering individuals through knowledge and support. Our mission is to provide reliable resources for physical, mental, and emotional health to enhance the well-being of our community.</p>
+                <p>Join us in our journey towards better health and wellness!</p>
+            </div>
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+                <button>Get in Touch</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Health Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
